@@ -1,3 +1,7 @@
+body {
+  padding-top: 50px;
+}
+
 /* Logo de Codo a Codo */
 .navbar-brand img {
   height: 50px;
