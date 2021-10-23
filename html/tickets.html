@@ -149,28 +149,31 @@
           <div class="col-md-4 mb-2">
             <label for="categoria">Categoría</label>
             <select name="categoria" id="categoria" class="form-select">
-              <option value="estudiante">Estudiante</option>
-              <option value="trainee">Trainee</option>
-              <option value="junior">Junior</option>
+              <option value="Estudiante">Estudiante</option>
+              <option value="Trainee">Trainee</option>
+              <option value="Junior">Junior</option>
+              <option value="--">--</option>
             </select>
           </div>
         </div>
 
         <div class="row justify-content-md-center my-2 mx-2">
-          <div class="col-md-8 alert alert-primary">Total a pagar: $</div>
+          <div class="col-md-8 alert alert-primary" id="total">
+            Total a pagar: $
+          </div>
         </div>
         <div class="row justify-content-md-center my-1">
           <div class="col-md-4 my-2">
             <div class="d-grid">
-              <button type="button" class="btn bg-color-green" id="borrar">
+              <button type="button" class="btn bg-color-green" id="borrarbtn">
                 Borrar
               </button>
             </div>
           </div>
           <div class="col-md-4 my-2">
             <div class="d-grid">
-              <button type="button" class="btn bg-color-green" id="enviar">
-                Enviar
+              <button type="button" class="btn bg-color-green" id="resumenbtn">
+                Resumen
               </button>
             </div>
           </div>
@@ -206,5 +209,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="../script/script.js"></script>
   </body>
 </html>
