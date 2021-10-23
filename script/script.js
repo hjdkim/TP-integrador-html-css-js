@@ -1,6 +1,7 @@
 // borra todo el formulario
 function borrar() {
   document.getElementById("form-ticket").reset();
+  document.getElementById("total").innerHTML = "Total a pagar: $ ";
 }
 
 document.getElementById("borrarbtn").onclick = borrar;
